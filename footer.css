@@ -1,0 +1,51 @@
+#containerG {
+  display: flex;
+  justify-content: space-evenly;
+}
+#containerG .h1,
+.p {
+  color: gray;
+}
+
+#box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+div > li {
+  justify-content: center;
+}
+.input {
+  border: 0px;
+  margin: 5px;
+  margin-top: 5px;
+}
+
+div > .img {
+  width: 100%;
+}
+.und {
+  margin-top: 10px;
+}
+#link {
+  display: flex;
+  justify-content: space-evenly;
+}
+.box4 {
+  width: 20%;
+}
+.box4 > .img {
+  width: 40%;
+}
+.img {
+  margin-top: 20px;
+  width: 100px;
+}
+.H6 {
+  color: black;
+  font-family: sans-serif;
+}
