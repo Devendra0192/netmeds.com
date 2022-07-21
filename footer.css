@@ -1,15 +1,16 @@
-#containerG {
+#ground {
   display: flex;
   justify-content: space-evenly;
 }
-#containerG .h1,
+#ground .h1,
 .p {
-  color: gray;
+  color: rgb(66, 56, 56);
 }
 
-#box {
+#sub {
   display: flex;
   justify-content: space-evenly;
+  font-size: small;
 }
 
 a {
