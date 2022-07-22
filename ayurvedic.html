@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nutrition,   Health Drinks and Supplements for Fitness at Best .... </title>
-    <link rel="stylesheet" href="fit.css">
+    <title>Ayurvedic Medicines, Products Online at Best Price @Netmeds </title>
+    <link rel="stylesheet" href="ayurvedic.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
@@ -59,15 +59,17 @@
       <p>Sexual Wellness</p>
       <p>Treatments</p>
   </div>
-    <h1>Shop By Categories</h1>
-    <div id="part1">
-    </div>
+  <div id="head">
+    <img src="https://www.netmeds.com/images/cms/aw_rbslider/slides/1656007665_category-1000-x-200.jpg" alt="">
+  </div>
+ 
 
    <div id="dis">
     <div class="text"> Showing <b>20 </b>of <b>3348</b> items</div>
    </div>
   
-
+   <div id="border">
+    <p>ALL PRODUCTS</p>
     <div id="box2"></div>
 
 <div id="dis">
@@ -88,6 +90,7 @@
 
 <div id="dis">
     
+</div>
 </div>
 
 <div id="part2"></div>
@@ -156,86 +159,47 @@
    <div> <a href=""><p class="p">Medicine</p> </a></div>
    <div><a href=><p class="p">Wellness</p></a></div>
    <div><a href=""><p class="p">Lab Test</p></a></div>
-   <div><a href=><p class="p">Beauty</p></a></div>
+   <div><a href=""><p class="p">Beauty</p></a></div>
    <div><p class="p">Copyright© 2022. All Rights Reserved.</p></div>
   </div>
 
 <script>
   
-  let arr=[
-      {
-          img:"https://www.netmeds.com/images/category/l2/thumb/ayurvedic_supplements.jpg?v=1657888943",
-          name:"Ayurvedic Supplements",
 
-      },
-      {
-          img:"https://www.netmeds.com/images/category/l2/thumb/family_nutrition.jpg?v=1657888943",
-          name:"Family Nutrition ", 
-      },
-      {
-          img:"https://www.netmeds.com/images/category/l2/thumb/health_food_and_drinks.jpg?v=1657888943",
-          name:"Health Food And......",
-      },
-      {
-          img:"https://www.netmeds.com/images/category/l2/thumb/vitamins_and_supplements.jpg?v=1657888943",
-          name:"Vitamins And Supplements",
-      },
-      {
-          img:"https://www.netmeds.com/images/category/l2/thumb/weight_management.jpg?v=1657888943",
-          name:"Weight And Management",
-      }
-      
-  ]
-  
-  
-  var cart=JSON.parse(localStorage.getItem("cartdata")) || [];
-  arr.map(function(ele){
-      
-    let div1=document.createElement("div")
-    let img1=document.createElement("img")
-      img1.setAttribute("id","photo")
-      img1.setAttribute("src",ele.img)
-      let h2=document.createElement("h2")
-      h2.textContent=ele.name
-
-      div1.append(img1,h2)
-      document.querySelector("#part1").append(div1);
-  
-  }); 
   let data1=[
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/407923/revital_h_woman_tablet_30_s_0.jpg",
-        des:"Revital H Women Tablet 30'S , it is good for heart",
-        smalltxt:"Mkt: Sun Pharmaceutical I ndustries Ltd",
-        price:"Best Price * RS 293.98",
-        mrp:"MRP Rs 345.00",
+        img:"https://www.netmeds.com/images/product-v1/150x150/1006907/teachers_grace_fytum_tablet_40s_0_0.jpg",
+        des:"Teacher's Grace Fytum Tablet 40's",
+        smalltxt:"Mkt: Teacher's Grace Industries Ltd",
+        price:"Best Price * RS 20093.98",
+        mrp:"MRP Rs 34005.00",
 
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/950649/pro360_100_plant_based_vegan_collagen_builder_unflavored_250_gm_182446_0_2.jpg",
-        des:"Pro360 100% Plant Based Vegan Collagen Builder",
-        smalltxt:"MKT:GMN HealthCare Private limited ",
+        img:"https://www.netmeds.com/images/product-v1/150x150/821307/kapiva_wheat_grass_juice_1_ltr_0_2.jpg",
+        des:"Kapiva wheat grass Juice ",
+        smalltxt:"MKT:GMN Kapiva Private limited ",
         price:"Best Price Rs 797.00",
         mrp:"MRP Rs 886.00",
     },
 
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/930167/pro360_gold_whey_100_protein_powder_chocolate_flavour_1_kg_0_0.jpg",
-        des:"Pro360 100% Whey Protien Powder Collagen Builder",
+        img:"https://www.netmeds.com/images/product-v1/150x150/814310/himalaya_wellness_ashvagandha_tablet_60_s_0.jpg",
+        des:"Himalaya Wellness Ashvagandha ",
         smalltxt:"Mkt:GMN HealthCare Private limited ",
         price:"Best Price Rs 1805.00",
         mrp:"MRP Rs 1900.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/889024/pro360_ortho_nutritional_powder_vanilla_flavour_250_gm_0_2.jpg",
-        des:"Skin Elements Men's Intimate Wash 60 ml",
+        img:"https://www.netmeds.com/images/product-v1/150x150/15919/dabur_shilajit_capsule_100_s_0.jpg",
+        des:"Dabur Shilajit Capsule 100's",
         smalltxt:" Mkt: Kapco International Limited",
         price:"Best Price Rs 248.00",
         mrp:"MRP Rs 459.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/100424/2baconil_tts10_7mg_patch_7_s_0.jpg",
-        des:"Skin Elements Men's Intimate Wash 120 ml",
+        img:"https://www.netmeds.com/images/product-v1/150x150/15912/dabur_honitus_herbal_cough_remedy_syrup_100_ml_0.jpg",
+        des:"Dabur Honitus Herbal Cough ",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 499.00",
         mrp:"MRP Rs 699.00",
@@ -281,33 +245,33 @@ data1.map(function(elem){
 
 let data2=[
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/954864/wellbeing_nutrition_melts_into_natural_vitamin_d3_oral_thin_strip_30s_0_0.jpg",
-        des:"AccuSure Pulse Oximeter  you can also get the best deal here just clic on this product- you ca n get the best deal here",
+        img:"https://www.netmeds.com/images/product-v1/150x150/919948/dr_vaidyas_herbo_24_turbo_male_power_oil_pack_of_2_x_25_ml_0_1.jpg",
+        des:"DR.Vaidya's Herbo 24 Turbo Powder  you can also get the best deal here just clic on this product- you ca n get the best deal here",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 1799.00",
         mrp:"MRP Rs 2599.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/902372/ensure_diabetes_care_powder_vanilla_flavour_1_kg_refill_pack_0_0.jpg",
-        des:"Ensure Antiseptic Liquid 550 ml & 300ml you can also get the bottle in just 50% of it, hurrry now before the offer gets end.  Antiseptic Liquid 550 ml",
+        img:"https://www.netmeds.com/images/product-v1/150x150/953777/dr_vaidyas_herbo24turbo_capsule_pack_of_3_x_30s_0_0.jpg",
+        des:"Dr. Vaidya's Herbo24Turbo Capsule (Pack of 3 x 30's) you can also get the bottle in just 50% of it, hurrry now before the offer gets end.  Antiseptic Liquid 550 ml",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 454.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/368144/2baconil_tts20_14mg_patch_7_s_0.jpg",
-        des:"3Se N95 Healthcare 5 Layers Particulate Respirator (KHM-05) 2's & 3Se N95 Healthcare 5 Layers Particulate Respirator (KHM-05) 6's",
+        img:"https://www.netmeds.com/images/product-v1/150x150/825057/kerala_ayurveda_imugest_tablet_pack_of_10_x_10_s_0.jpg",
+        des:"3Se N95 Healthcare 5 Layers Particulate Respirator (KHM-05) 2's & 3Se N95 Healthcare 5 Layers Particulate Respirator (KHM-05) 6's 550 ml",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 640.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/954865/wellbeing_nutrition_melts_into_vegan_vitamin_b12_oral_thin_strip_30s_0_0.jpg",
+        img:"https://www.netmeds.com/images/product-v1/150x150/953782/dr_vaidyas_herbobuild_capsule_pack_of_3_x_30s_0_1.jpg",
         des:"AOxy5 Refillable Portable Oxygen Can 6 Litre &  Refillable Portable Oxygen Can 6 Litre Refillable Portable Oxygen Can 6L",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 460.00",
         mrp:"MRP Rs 650.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/891392/2baconil_2_mg_chew_gum_icy_mint_10_s_0.jpg",
+        img:"https://www.netmeds.com/images/product-v1/150x150/406031/patanjali_honey_500_gm_0.jpg",
         des:"Fast&Up Charge Natural Vitamin C & Zinc Tablets - Orange Flavour 20's - here is your daily dose to boost up your skins" ,
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 300.00",
@@ -355,35 +319,35 @@ data2.map(function(element){
 
 let data3=[
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/356552/d_protin_vanilla_powder_500_gm_0.jpg",
+        img:"https://www.netmeds.com/images/product-v1/150x150/821279/kapiva_get_slim_juice_1_ltr_0_3.jpg",
         des:"Accu-Chek Active Test Strips 50's and get 100ml coupon you can get it",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 750.00",
         mrp:"MRP Rs 805.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/954868/wellbeing_nutrition_melts_into_instant_energy_oral_thin_strip_30s_0_0.jpg",
+        img:"https://www.netmeds.com/images/product-v1/150x150/986169/dr_vaidyas_herboslim_tablet_30s_0_0.jpg",
         des:"Accu-Chek Active Test Strips 100's and get 100ml coupon you can aplly your ",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 3587.00",
         mrp:"MRP Rs 4500.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/38061/b_protin_nutritional_powder_supplement_chocolate_500_gm_0.jpg",
-        des:"B-protin Instant Test Strips 50's and get 100ml coupon for 200ml apply coupon",
+        img:"https://www.netmeds.com/images/product-v1/150x150/802926/patanjali_juice_amla_1_ltr_0.jpg",
+        des:"B-protin Instant Test Strips 50's and get 100ml coupon for 200ml apply ",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 915.00",
         mrp:"MRP Rs 1075.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/925399/pediacare_super_immuno_plus_gummies_elderberry_25s_0_4.jpg",
-        des:"Mylab Coviself Covid-19 Rapid Antigen Self Test Kit protect your immunity",
+        img:"https://www.netmeds.com/images/product-v1/150x150/905937/lama_ashwagandharist_tonic_450_ml_0_1.jpg",
+        des:"Mylab Coviself Covid-19 Rapid Antigen Self Test Kit protect you",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 300.00",
         mrp:"MRP Rs 450.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/813644/nutrilite_daily_tablet_120s_0_0.jpg",
+        img:"https://www.netmeds.com/images/product-v1/150x150/15913/dabur_janma_ghunti_honey_125_ml_0.jpg",
         des:"Onetouch Select Test Strip 50's and get 100ml coupon & get a best offer and get 1000ml in just 50% of it",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 945.00",
@@ -431,21 +395,21 @@ data3.map(function(element){
 
 let data4=[
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/821331/kapiva_karela_jamun_juice_1_ltr_0_3.jpg",
+        img:"https://www.netmeds.com/images/product-v1/150x150/919936/dr_vaidyas_kabaj_capsule_pack_of_2_x_30s_0_0.jpg",
         des:"Ayur Herbal Body Care Lotion - Cocoa Butter 1000 ml & 500ml & 250ml",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 457.00",
         mrp:"MRP Rs 320.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/895048/onetouch_select_plus_test_strips_50s_0_3.jpg",
+        img:"https://www.netmeds.com/images/product-v1/150x150/905933/lama_draksharist_tonic_450_ml_0_1.jpg",
         des:"Aroma Magic Juniper Berry Oil Free Moisturiser 100 ml & 200ml-- 300ml",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 474.00",
         mrp:"MRP Rs 304.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/408330/onetouch_verio_test_strip_100s_0_3.jpg",
+        img:"https://www.netmeds.com/images/product-v1/150x150/905919/lama_amrit_kalp_paste_500_gm_0_2.jpg",
         des:"Nivea Nourishing Lotion Body Milk - Deep Moisture Serum 200 ml",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 209.00",
@@ -459,8 +423,8 @@ let data4=[
         mrp:"MRP Rs 300.00",
     },
     {
-        img:"https://www.netmeds.com/images/product-v1/150x150/825910/kapiva_dia_free_juice_1_ltr_0_2.jpg",
-        des:"Ayur Herbal Deep Cleansing Milk Lotion with Aloe Vera 500 ml & 1000ml ",
+        img:"https://www.netmeds.com/images/product-v1/150x150/835509/kapiva_ginger_burst_honey_250_gm_0_1.jpg",
+        des:"Ayur Herbal Deep Cleansing Milk Lotion with Aloe Vera 500",
         smalltxt:"Mkt: Kapco International Limited",
         price:"Best Price Rs 499.00",
         mrp:"MRP Rs 350.00",
