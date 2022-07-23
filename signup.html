@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Netmeds Clone</title>
+    <style>
+      * {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+a:link {
+
+  background-color: transparent;
+  text-decoration: none;
+}
+.navbar {
+  width: 100%;
+  background-color: rgb(50, 174, 177);
+  display: flex;
+  padding: 35px 80px;
+}
+.flex {
+  display: flex;
+}
+.center {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.navbar1 {
+  width: 20%;
+}
+.navbar2 {
+  width: 50%;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.navbar3 {
+  width: 25%;
+  color: #fff;
+  justify-content: space-around;
+}
+.navbar3 > p > i {
+  font-weight: bold;
+  margin: 10px 10px;
+  font-size: 20px;
+}
+.navbar2 > select {
+  width: 20%;
+  height: 50px;
+  border: 0px;
+  border-radius: 10px;
+  padding: 3px;
+  font-size: 12px;
+}
+.navbar2 > input {
+  width: 75%;
+  height: 50px;
+  border: 0px;
+}
+
+.navbar-section-2 {
+  background-color: rgb(50, 174, 177);
+  justify-content: space-around;
+  padding: 0px 150px 15px;
+  color: #fff;
+  font-weight: bold;
+}
+.navbar-section-2 div > img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+#main{
+  height:auto;
+  width:auto;
+  background-color:rgb(248, 253, 253);
+}
+#signup {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  gap:50px;
+}
+#signup>.div1 {
+  width: 50%;
+}
+#signup>.div2 {
+  width: 50%;
+  padding: 40px 90px;
+}
+
+.div2 > p:nth-child(2) {
+  color: rgba(73, 75, 75, 0.74);
+  font-size: 14px;
+}
+.div2 div {
+  justify-content: center;
+  align-items: center;
+}
+.div2 > form > div > strong {
+  border-right: 1px solid black;
+  font-weight: 600;
+  font-size: 18px;
+  margin-right: 4px;
+  padding-right: 4px;
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.199);
+}
+input {
+  outline: none;
+  width: 100%;
+  border: 0px;
+  height: 17px;
+}
+#form > input:last-child {
+  width: 100%;
+  background-color: rgb(63, 224, 227);
+  color: #fff;
+  font-weight: bold;
+  border: 0px;
+  height: 40px;
+  margin-top: 27px;
+  border-radius: 10px;
+}
+.phone {
+  color: rgb(63, 224, 227);
+  font-size: 11px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.div2 > .option {
+  margin-top: 100px;
+  justify-content: space-between;
+}
+.div2 > .option > .option {
+  border: 2px solid rgba(65, 62, 62, 0.37);
+  border-radius: 4px;
+  width: 140px;
+  height: 44px;
+  justify-content: space-around;
+}
+.div2 > .option > .option > p {
+  font-weight: 500;
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgba(114, 113, 113, 0.753);
+}
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar">
+      <div class="navbar1 center">
+        <img
+          src="https://www.netmeds.com/assets/gloryweb/images/home-logo-netmeds-new.svg"
+          alt=""
+          onclick="window.location.href='home.html'"
+        />
+      </div>
+      <div class="navbar2 flex">
+        <select id="">
+          <option value="">Deliver to <strong>272001</strong></option>
+          <option value="">Lucknow</option>
+          <option value="">Noida</option>
+          <option value="">Basti</option>
+         <option value="">Gaya</option>
+           <option value="">other..</option>
+        </select>
+        <input type="search" name="" id="" placeholder="Search for products..." />
+      </div>
+      <div class="flex navbar3">
+        <p><i class="fa fa-cart-plus"></i> Cart</p>
+        <p> <i class="fa fa-user-circle"></i>  <span onclick="window.location.href='signup.html'">Sign In</span> / <span onclick="window.location.href='signup.html'"> Sign up</span></p>
+      </div>
+    </nav>
+    <nav>
+      
+      <section class="flex navbar-section-2">
+        <div><img src="https://flyclipart.com/thumb2/medicine-tablet-logos-34089.png" alt=""> Medicine</div>
+        <div ><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVfq_UCR0vsiebM5ZJz7ugMaj-w3ApoF8Fvw&usqp=CAU" alt=""> Wellness</div>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRwesNZCpFXEl5Jlv2pSkadvQmolNwuUv5UA&usqp=CAU" alt=""> Lab Tests</div>
+        <div ><img src="https://png.pngtree.com/png-vector/20211125/ourlarge/pngtree-beauty-logo-png-image_4041005.png" alt=""> Beauty</div>
+        <div><img src="https://cloudinary.hbs.edu/hbsit/image/upload/s--sFv3MZbN--/f_auto,c_fill,h_375,w_750,/v20200101/D730ED9CC0AF1A0C18B3499EF75E86D7.jpg" alt=""> Health Corner</div>
+    </section>
+    <div id="main">
+    <section id="signup">
+      <div class="div1">
+        <img
+          src="https://www.netmeds.com/images/cms/wysiwyg/cms/1588773798_sign-in-banner-new.png"
+          alt=""
+        />
+      </div>
+      <div class="div2">
+        <h4>Sign In / Sign Up</h4>
+        <p>
+          Sign up or Sign in to access your orders, special offers, health tips
+          and more!
+        </p>
+        <p class="phone">PHONE NUMBER</p>
+        <form id="form">
+          <div class="flex">
+            <strong>+91</strong>
+            <input type="number" placeholder="Enter your mobile no" id="mobile" />
+            <br />
+          </div>
+          <input type="submit" value="OTP" />
+        </form>
+        <div class="option flex">
+          <div class="option flex center">
+            <img
+              src="http://assets.stickpng.com/images/5847f9cbcef1014c0b5e48c8.png"
+              width="20px"
+              height="20px"
+              alt=""
+            />
+            <p>Google</p>
+          </div>
+          <div class="option flex center">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
+              width="20px"
+              height="20px"
+              alt=""
+            />
+            <p>Facebook</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+    <p style="text-align: center; font-size: 20px;color: rgba(114, 113, 113, 0.753);margin-top: 100px;">
+      By continuing you agree to our <b style="color:rgb(227, 82, 106)">Terms of service</b> <br />
+      and<b style="color:rgb(227, 82, 106)">Privacy & Legal Policy</b> 
+    </p>
+  </body>
+  <script>
+    document.querySelector("form").addEventListener("submit", Form);
+    let array= JSON.parse(localStorage.getItem("mob")) || [];
+
+    function Form(event) {
+      event.preventDefault();
+      var mobile= document.querySelector("#mobile").value;
+      var data = {
+        MobileNumber: mobile,
+      };
+      array.push(data);
+      alert("Congratulations! Signup Successful!");
+      window.location.href='home.html'
+    }
+  </script>
+</html>
