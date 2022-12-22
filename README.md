@@ -13,6 +13,8 @@ This is an individual project
 
 For Frontend : HTML5, CSS3, Javascript.
 
+Tools: Netlify
+
 Tools Used: Netlify.
 ---
 Deployed Link : https://sunny-hummingbird-81f941.netlify.app/
